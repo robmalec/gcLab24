@@ -19,9 +19,9 @@
 		<tr>
 			<th>ID</th>
 			<th>Name</th>
-			<th>Category</th>
-			<th>Quantity</th>
+			<th>Description</th>
 			<th>Price</th>
+			<th>Quantity</th>
 		</tr>
 		<c:forEach items="${productList }"  var="pr" >
 			<tr>
